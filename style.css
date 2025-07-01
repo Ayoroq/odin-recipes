@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+    font-family: monospace, fantasy, cursive, 'Times New Roman', Times, serif;
+}
+
+.title{
+    color: green;
+    display: block;
+    margin: 0 auto;
+    width: max-content
+}
+
+.recipes{
+    background-color: rgb(147, 147, 146);
+    padding: 20px;
+    opacity: 75%;
+}
+
+.recipes li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipes a{
+    color: yellow;
+}
+
+.recipes a:hover{
+    color: rgb(0, 251, 255);
+}
